@@ -1,0 +1,19 @@
+{
+    "files": [
+        "src/*.ts",
+        "src/DataStructure/*.ts",
+        "test/ut/*.ts"
+    ],
+    "compilerOptions": {
+        "types": [
+            "node"
+        ],
+        "noImplicitAny": false,
+        "removeComments": false,
+        "target": "es5",
+        "lib": [
+            "es5",
+            "es6"
+        ]
+    }
+}

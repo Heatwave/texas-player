@@ -1,0 +1,32 @@
+{
+  "name": "texas-player",
+  "version": "1.0.0",
+  "description": "Texas Hold’em AI player use Monte Carlo method and Tensorflow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp && node dist\\src\\index.js"
+  },
+  "author": "Heatwave",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs": "^0.12.4",
+    "@tensorflow/tfjs-core": "^0.12.8",
+    "@tensorflow/tfjs-node": "^0.1.9",
+    "winston": "^3.0.0",
+    "ws": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^5.2.4",
+    "@types/ws": "^5.1.2",
+    "chai": "^4.1.2",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^6.0.0",
+    "gulp-typescript": "^5.0.0-alpha.3",
+    "mocha": "^5.2.0",
+    "ts-node": "^7.0.0",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.2"
+  }
+}
