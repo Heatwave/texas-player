@@ -14,7 +14,7 @@
     "@tensorflow/tfjs-core": "^0.12.8",
     "@tensorflow/tfjs-node": "^0.1.9",
     "winston": "^3.0.0",
-    "ws": "^5.2.2"
+    "ws": "^7.4.5"
   },
   "devDependencies": {
     "@types/chai": "^4.1.4",
